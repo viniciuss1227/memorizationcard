@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const card = document.querySelector(".card");
-    const cardflipp = document.getElementById("cardflipp");
+    const botaoFlipp = document.getElementById("botaoFlipp");
 
-    card.addEventListener("click" , function () {
+    botaoFlipp.addEventListener("click", function () {
         card.classList.toggle("flipped");
     });
 });
